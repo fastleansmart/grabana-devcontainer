@@ -1,0 +1,10 @@
+github.com/fastleansmart/grabana v0.23.0 h1:RXxfV96waKn9Hp8da6L/SBX63P2SI2Fg8qzLMN0YMf4=
+github.com/fastleansmart/grabana v0.23.0/go.mod h1:86teyUpKBKrYQhv1gYNgiEaZdlOKW/yh0P0+3zPfMws=
+github.com/fastleansmart/grafana-sdk v0.14.3 h1:pvzxSurp9RAA8VXDqX+AO6Z1gzDfdU0Kb7fAVGDSqEc=
+github.com/fastleansmart/grafana-sdk v0.14.3/go.mod h1:qmM0wO23CtoDux528MXPpYvS4XkRWkWX6rvX9Za8EVU=
+github.com/gosimple/slug v1.13.1 h1:bQ+kpX9Qa6tHRaK+fZR0A0M2Kd7Pa5eHPPsb1JpHD+Q=
+github.com/gosimple/slug v1.13.1/go.mod h1:UiRaFH+GEilHstLUmcBgWcI42viBN7mAb818JrYOeFQ=
+github.com/gosimple/unidecode v1.0.1 h1:hZzFTMMqSswvf0LBJZCZgThIZrpDHFXux9KeGmn6T/o=
+github.com/gosimple/unidecode v1.0.1/go.mod h1:CP0Cr1Y1kogOtx0bJblKzsVWrqYaqfNOnHzpgWw4Awc=
+github.com/prometheus/common v0.45.0 h1:2BGz0eBc2hdMDLnO/8n0jeB3oPrt2D08CekT0lneoxM=
+github.com/prometheus/common v0.45.0/go.mod h1:YJmSTw9BoKxJplESWWxlbyttQR4uaEcGyv9MZjVOJsY=
