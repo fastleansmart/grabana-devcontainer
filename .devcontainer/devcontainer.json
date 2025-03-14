@@ -21,10 +21,12 @@
     }
   },
   "containerEnv": {
-    "GRAFANA_PORT": "3003"
+    "GRAFANA_PORT": "3003",
+    "GRAFANA_HOST": "http://host.docker.internal"
   },
   "remoteEnv": {
-    "GRAFANA_PORT": "3003"
+    "GRAFANA_PORT": "3003",
+    "GRAFANA_HOST": "http://host.docker.internal"
   }
 
   // Configure tool-specific properties.

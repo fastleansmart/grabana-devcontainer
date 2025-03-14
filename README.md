@@ -6,7 +6,10 @@ With this, you'll able to code your dashboards and see the changes in real time 
 
 ## Getting started
 
-Before opening this repo, make sure that you have the [grafana docker container](https://hub.docker.com/r/grafana/grafana) running and the port of it is correctly set in `$GRAFANA_PORT`.
+Before opening this repo, make sure that your target Grafana is already running. You could for example use the [grafana docker container](https://hub.docker.com/r/grafana/grafana).
+
+The port of your instance should be set in `$GRAFANA_PORT`.
+The host URL should be in `$GRAFANA_HOST`.
 
 Next, you need to open this repository in the existing [devcontainer](https://code.visualstudio.com/docs/devcontainers/tutorial) in VSCode.
 

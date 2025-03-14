@@ -2,7 +2,7 @@
 
 # check if grafana is up
 echo "Checking if Grafana is running..."
-curl -s -f -o /dev/null host.docker.internal:"$GRAFANA_PORT" || { >&2 printf '\nERROR: Grafana not found. Have you set GRAFANA_PORT correctly?\n'; exit 1; }
+curl -s -f -o /dev/null $GRAFANA_HOST:"$GRAFANA_PORT" || { >&2 printf '\nERROR: Grafana not found. Have you set GRAFANA_PORT and GRAFANA_HOST correctly?\n'; exit 1; }
 
 # install some libraries
 echo "Installing libraries..."

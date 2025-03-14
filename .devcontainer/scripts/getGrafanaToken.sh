@@ -1,5 +1,5 @@
 #!/bin/bash
-export GRAFANA_URL="http://host.docker.internal:$GRAFANA_PORT/"
+export GRAFANA_URL="$GRAFANA_HOST:$GRAFANA_PORT/"
 # make service account
 echo "Generating new Grafana API token..."
 guid="$(cat /proc/sys/kernel/random/uuid)"
