@@ -17,6 +17,10 @@ After the container has finished building, you are ready to start building your 
 
 Dashboards are generally defined under `pkg/dashboards/dashboard/yourAmazingDashboard.go`. Be sure to register your dashboard in `pkg/dashboards/dashboards.go` for them to be built.
 
+### Example
+
+An example of how to use this Repo can be found [here](https://github.com/SchneiderMaster/grabana-devcontainer-demo)
+
 ## Publishing dashboards
 
 To publish dashboards to your real Grafana instance, build them using the following command:
